@@ -1,0 +1,65 @@
+/* .side
+{
+    background-color: coral;
+}
+
+.main
+{
+    background-color: aquamarine;
+} */
+
+body
+{
+    background-color: #ECEDEF;
+    font-family: 'Noticia Text', serif;
+    padding: 2em;
+}
+
+h1
+{
+    font-family: 'chomskyregular';
+    color: #404040;
+    font-size: 10em;
+    text-align: center;
+}
+
+.news-name
+{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-top : 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.news-title
+{
+    font-weight: bold;
+}
+
+.undertitle
+{
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+    padding-top: 0.7em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-weight: bold;
+}
+
+.slogan
+{
+    text-align: center;
+}
+
+.date
+{
+    text-align: end;
+}
+
+.article
+{
+    text-align: justify;
+    padding: 2em;
+}
