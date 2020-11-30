@@ -56,6 +56,12 @@ h1
     padding: 2em;
 }
 
+#wrapper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
 #hidden-news,#showed-news {
     background-color: #ECEDEF;
     width: 100%;
