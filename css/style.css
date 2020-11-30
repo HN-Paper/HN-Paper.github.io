@@ -77,5 +77,19 @@ h1
     opacity: 0;
     transition: visibility 0s 1.3s, opacity 1.3s linear;
 }
+ 
 
+  
+#fold:after { 
+    position: absolute; 
+    content: ''; 
+    right: 0; 
+    top: 0; 
+} 
+  
+#fold:hover:after { 
+    transition-duration: 1s; 
+    border-bottom: 50px solid black; 
+    border-right: 50px solid #ECEDEF; 
+}
 
