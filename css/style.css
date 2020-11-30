@@ -67,10 +67,15 @@ h1
 }
 #showed-news {
     z-index: 10;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
 }
 
 #showed-news:hover{
-    display:none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1.3s, opacity 1.3s linear;
 }
 
 
