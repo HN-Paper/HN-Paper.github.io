@@ -1,12 +1,4 @@
-/* .side
-{
-    background-color: coral;
-}
 
-.main
-{
-    background-color: aquamarine;
-} */
 
 body
 {
@@ -63,3 +55,20 @@ h1
     text-align: justify;
     padding: 2em;
 }
+
+#hidden-news,#showed-news {
+    background-color: #ECEDEF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#showed-news {
+    z-index: 10;
+}
+
+#showed-news:hover{
+    display:none;
+}
+
+
