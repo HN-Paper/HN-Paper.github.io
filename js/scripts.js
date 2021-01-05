@@ -26,7 +26,7 @@
     
     function onLoad () {
       ratio = img.naturalWidth / img.width;
-      zoom.style.backgroundImage = 'url(res/catnews.PNG)';
+      zoom.style.backgroundImage = 'url(res/catnews.png)';
       Ix = img.offsetLeft;
       Iy = img.offsetTop;
     }
