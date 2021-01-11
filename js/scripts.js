@@ -1,5 +1,10 @@
+$(document).ready(function () {
+	$(".img-lens").blowup({
+		background : "#ECEDEF"
+	});
+})
 
-
+/*
 (function() {
     var zoom = document.getElementById( 'zoom' ),
         Zw = zoom.offsetWidth,
@@ -47,3 +52,4 @@
     img.addEventListener( 'mouseleave', onMouseleave );
   
   })();
+*/
