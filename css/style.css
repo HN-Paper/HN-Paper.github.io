@@ -103,3 +103,7 @@ h1
   color: lightslategray;
   font-style: italic;
 }
+
+.img-lens{
+  min-width: 600px;
+}
