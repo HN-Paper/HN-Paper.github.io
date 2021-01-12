@@ -52,6 +52,12 @@ h1
     text-align: justify;
     padding: 2em;
     margin-bottom:6em;
+    background-color: #ECEDEF;
+}
+
+.page{
+    text-align: justify;
+    background-color: #ECEDEF;
 }
 
 #hidden-news,#showed-news {
@@ -106,4 +112,9 @@ h1
 
 .img-lens{
   min-width: 600px;
+}
+
+.main-news{
+    display: flex;
+    justify-content: center;
 }
