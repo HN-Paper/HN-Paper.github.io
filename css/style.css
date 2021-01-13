@@ -2,6 +2,7 @@ body
 {
     background-color: #ECEDEF;
     font-family: 'Noticia Text', serif;
+    margin: 25px;
 }
 
 h1
@@ -24,6 +25,7 @@ h1
 .news-title
 {
     font-weight: bold;
+    font-size: 1.7em;
 }
 
 .undertitle
@@ -53,6 +55,7 @@ h1
     padding: 2em;
     margin-bottom:6em;
     background-color: #ECEDEF;
+    min-height: 400px;
 }
 
 .page{
@@ -60,43 +63,30 @@ h1
     background-color: #ECEDEF;
 }
 
-#hidden-news,#showed-news {
+.hidden-hover,.showed-hover {
     background-color: #ECEDEF;
     position : absolute;
 }
 
-#showed-news {
+.showed-hover {
     z-index: 10;
     visibility: visible;
     opacity: 1;
     transition: opacity 1s linear;
 }
 
-#hidden-news{
+.hidden-hover{
   visibility:hidden;
 }
 
-#showed-news:hover{
+.showed-hover:hover{
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s 1.3s, opacity 1.3s linear;
 }
 
-#showed-news:hover + #hidden-news{
+.showed-hover:hover + .hidden-hover{
   visibility: visible;
-}
-
-#fold:after { 
-    position: absolute; 
-    content: ''; 
-    right: 0; 
-    top: 0; 
-} 
-  
-#fold:hover:after { 
-    transition-duration: 1s; 
-    border-bottom: 50px solid black; 
-    border-right: 50px solid #ECEDEF; 
 }
    
 .img-article{
@@ -120,29 +110,33 @@ h1
     justify-content: center;
 }
 
-#hidden-onclick,#showed-onclick {
+.hidden-onclick,.showed-onclick {
     background-color: #ECEDEF;
     position : absolute;
 }
 
-#showed-onclick {
+.showed-onclick {
     z-index: 10;
     visibility: visible;
     opacity: 1;
     transition: opacity 1s linear;
 }
 
-#hidden-onclick{
+.hidden-onclick{
   visibility:hidden;
 }
 
-#showed-onclick:active{
+.showed-onclick:active{
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s 1.3s, opacity 1.3s linear;
 }
 
-#showed-onclick:active + #hidden-onclick{
+.showed-onclick:active + .hidden-onclick{
     visibility: visible;
 }
   
+.demo{
+    width: 900px;
+    height: 900px;
+}

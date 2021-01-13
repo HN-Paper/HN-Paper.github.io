@@ -99,7 +99,7 @@ $(function ($) {
       $blowupLens.css({
         left                  : lensX,
         top                   : lensY,
-        "background-image"    : 'url(res/catnews.PNG)',
+        "background-image"    : 'url(res/tokyolympics.png)',
         "background-size"     : backgroundSize,
         "background-position" : backPos
       });
