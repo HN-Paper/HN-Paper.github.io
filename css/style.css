@@ -101,6 +101,7 @@ h1
    
 .img-article{
   display: block;
+  /*width:100%;*/
   margin: auto;
 }
 
@@ -118,3 +119,30 @@ h1
     display: flex;
     justify-content: center;
 }
+
+#hidden-onclick,#showed-onclick {
+    background-color: #ECEDEF;
+    position : absolute;
+}
+
+#showed-onclick {
+    z-index: 10;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+#hidden-onclick{
+  visibility:hidden;
+}
+
+#showed-onclick:active{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1.3s, opacity 1.3s linear;
+}
+
+#showed-onclick:active + #hidden-onclick{
+    visibility: visible;
+}
+  
