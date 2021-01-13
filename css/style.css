@@ -136,7 +136,6 @@ h1
     visibility: visible;
 }
   
-.demo{
-    width: 900px;
-    height: 900px;
+.article-small{
+    background-color: lightcoral;
 }
