@@ -4,6 +4,6 @@ $(document).ready(function () {
 	});
 })
 
-if(window.location.href==="https://hn-paper.github.io/zXks526_ik24"){
-	window.location.replace("https://hn-paper.github.io/well/done/mate/news.html");
+if(window.location.href==="https://hn-paper.github.io/"){
+	window.location.replace("https://hn-paper.github.io/zXk/s526/s526/_ik24.html");
 }
